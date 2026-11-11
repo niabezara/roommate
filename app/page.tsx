@@ -1,17 +1,9 @@
 import HeroSection from "@/components/sections/HeroSection";
-import MarqueeSection from "@/components/sections/MarqueeSection";
-import AboutSection from "@/components/sections/AboutSection";
-import ServicesSection from "@/components/sections/ServicesSection";
-import ProjectsSection from "@/components/sections/ProjectsSection";
 
 export default function Page() {
   return (
     <main style={{ background: "#0C0C0C", overflowX: "clip" }}>
       <HeroSection />
-      <MarqueeSection />
-      <AboutSection />
-      <ServicesSection />
-      <ProjectsSection />
     </main>
   );
 }
